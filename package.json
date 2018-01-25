@@ -1,6 +1,6 @@
 {
   "name": "storybook-addon-react-native-deployment",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Enable deployment of a storybook on your React Native app",
   "main": "index.js",
   "author": "Almouro <contact@almouro.com> (http://alexandremoureaux.com/)",
