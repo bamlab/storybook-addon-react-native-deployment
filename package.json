@@ -1,0 +1,15 @@
+{
+  "name": "storybook-addon-react-native-deployment",
+  "version": "1.0.0",
+  "description": "Enable deployment of a storybook on your React Native app",
+  "main": "index.js",
+  "author": "Almouro <contact@almouro.com> (http://alexandremoureaux.com/)",
+  "license": "MIT",
+  "peerDependencies": {
+    "@storybook/react-native": "3.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bamlab/storybook-addon-react-native-deployment"
+  }
+}
