@@ -10,4 +10,4 @@ const createChannel = () => {
   return new Channel({ transport });
 };
 
-export const mockChannel = () => addons.setChannel(createChannel());
+export const disableStorybookServer = () => addons.setChannel(createChannel());

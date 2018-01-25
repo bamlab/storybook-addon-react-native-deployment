@@ -11,9 +11,9 @@ Install it with `yarn add --dev storybook-addon-react-native-deployment`
 Then add those lines when initializing your storybook, usually in `storybook/storybook.js`:
 
 ```javascript
-import { mockChannel } from "storybook-addon-react-native-deployment";
+import { disableStorybookServer } from "storybook-addon-react-native-deployment";
 
-mockChannel();
+disableStorybookServer();
 ```
 
 For instance:
@@ -21,9 +21,9 @@ For instance:
 ```javascript
 import { getStorybookUI, configure } from "@storybook/react-native";
 
-import { mockChannel } from "storybook-addon-react-native-deployment";
+import { disableStorybookServer } from "storybook-addon-react-native-deployment";
 
-mockChannel();
+disableStorybookServer();
 
 configure(() => {
   // import stories
